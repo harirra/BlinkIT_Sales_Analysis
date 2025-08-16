@@ -1,4 +1,4 @@
-# 🛒 BlinkIT Grocery Sales Dashboard  
+# 🛒 BlinkIT Sales Analysis Dashboard  
 
 ## 📌 Project Overview  
 This project analyzes grocery sales data from BlinkIT to uncover insights into product performance, customer preferences, and outlet-level sales trends.  
