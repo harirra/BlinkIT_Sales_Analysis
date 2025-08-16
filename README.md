@@ -36,14 +36,13 @@ BlinkIT wants to optimize its sales strategy by identifying:
 
 ## 🛠️ Technologies Used  
 - **Excel** → Data exploration & cleaning.  
-- **SQL** → Querying & preprocessing dataset.  
 - **Power BI** → Data modeling, DAX measures, and dashboard creation.  
 
 ---
 
 ## 📊 Dashboard Features  
 - **KPIs**: Total Sales, Average Sales, Total Items, Outlet Count.  
-- **Sales Analysis**:  
+- **Sales/Avg Sales/Total Items/Avg Rating Analysis (Matric)**:  
   - Sales by Item Type  
   - Sales by Fat Content  
   - Sales by Outlet Size & Location  
