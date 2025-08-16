@@ -1,8 +1,15 @@
 # 🛒 BlinkIT Sales Analysis Dashboard  
 
 ## 📌 Project Overview  
-This project analyzes grocery sales data from BlinkIT to uncover insights into product performance, customer preferences, and outlet-level sales trends.  
-The goal is to provide business intelligence through an interactive Power BI dashboard that helps stakeholders make **data-driven decisions**.  
+The BlinkIT Sales Analysis Dashboard is designed to explore and visualize grocery sales data from BlinkIT. The project aims to uncover meaningful insights into:
+
+Product performance – identifying top-selling and underperforming items
+
+Customer preferences – analyzing buying patterns across different product categories
+
+Outlet performance – comparing sales across various outlet types, sizes, and locations
+
+The analysis is presented through an interactive Power BI dashboard, allowing stakeholders to track sales performance, monitor trends, and make data-driven business decisions effectively.
 
 ---
 
