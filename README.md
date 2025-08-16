@@ -11,25 +11,26 @@ BlinkIT wants to optimize its sales strategy by identifying:
 - Which products contribute most to revenue.  
 - How **fat content** and **item type** impact sales.  
 - Which outlets perform best and why.  
-- The effect of outlet size and location on overall sales.  
+- How outlet size, location, and type influence performance.
+- The challenge was to clean, model, and visualize the dataset effectively so decision-makers can quickly identify growth opportunities.
 
 ---
 
-## 📂 Dataset Description  
-The dataset (`BlinkIT Grocery Data.xlsx`) contains details about items sold, their characteristics, and outlet information.  
+## 🗂 Sample Dataset Structure  
 
-Key Columns:  
-- **Item Identifier** – Unique ID for each product.  
-- **Item Weight** – Weight of the item.  
-- **Item Fat Content** – Nutritional category (Low Fat / Regular / Others).  
-- **Item Type** – Category of the grocery item (Fruits, Dairy, Frozen, etc.).  
-- **Item MRP** – Maximum Retail Price.  
-- **Outlet Identifier** – Unique code for each outlet.  
-- **Outlet Establishment Year** – Year the outlet was opened.  
-- **Outlet Size** – Tier of outlet (Small, Medium, Large).  
-- **Outlet Location Type** – City tier (Tier 1, Tier 2, Tier 3).  
-- **Outlet Type** – Type of outlet (Supermarket / Grocery Store).  
-- **Item Outlet Sales** – Total sales value (target metric).  
+| Item Fat Content | Item Identifier | Item Type            | Outlet Establishment Year | Outlet Identifier | Outlet Location Type | Outlet Size | Outlet Type           | Item Visibility | Item Weight | Sales    | Rating |
+|------------------|-----------------|----------------------|---------------------------|------------------|----------------------|-------------|-----------------------|----------------|-------------|----------|--------|
+| Regular          | FDX32           | Fruits and Vegetables| 2012                      | OUT049           | Tier 1               | Medium      | Supermarket Type1     | 0.1000135      | 15.1        | 145.4786 | 5      |
+| Low Fat          | NCB42           | Health and Hygiene   | 2022                      | OUT018           | Tier 3               | Medium      | Supermarket Type2     | 0.008596051    | 11.8        | 115.3492 | 5      |
+| Regular          | FDR28           | Frozen Foods         | 2016                      | OUT046           | Tier 1               | Small       | Supermarket Type1     | 0.025896485    | 13.85       | 165.021  | 5      |
+| Regular          | FDL50           | Canned               | 2014                      | OUT013           | Tier 3               | High        | Supermarket Type1     | 0.042277867    | 12.15       | 126.5046 | 5      |
+| Low Fat          | DRI25           | Soft Drinks          | 2015                      | OUT045           | Tier 2               | Small       | Supermarket Type1     | 0.033970195    | 19.6        | 55.1614  | 5      |
+| Low Fat          | FDS52           | Frozen Foods         | 2020                      | OUT017           | Tier 2               | Small       | Supermarket Type1     | 0.005505481    | 8.89        | 102.4016 | 5      |
+| Low Fat          | NCU05           | Health and Hygiene   | 2011                      | OUT010           | Tier 3               | Small       | Grocery Store         | 0.098312421    | 11.8        | 81.4618  | 5      |
+| Low Fat          | NCD30           | Household            | 2015                      | OUT045           | Tier 2               | Small       | Supermarket Type1     | 0.026903714    | 19.7        | 96.0726  | 5      |
+| Low Fat          | FDW20           | Fruits and Vegetables| 2014                      | OUT013           | Tier 3               | High        | Supermarket Type1     | 0.024129332    | 20.75       | 124.173  | 5      |
+| Low Fat          | FDX25           | Canned               | 2018                      | OUT027           | Tier 3               | Medium      | Supermarket Type3     | 0.101561568    | —           | 181.9292 | 5      |
+
 
 ---
 
