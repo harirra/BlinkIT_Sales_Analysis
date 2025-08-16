@@ -1,64 +1,69 @@
-Overview
+# 🛒 BlinkIT Grocery Sales Dashboard  
 
-This project is a Power BI dashboard built using the BlinkIT Grocery Sales dataset. The data was cleaned and transformed in Power Query, enriched with DAX measures, and visualized in an interactive dashboard. The dashboard provides deep insights into item sales, outlet performance, customer ratings, and category contributions across multiple dimensions.
+## 📌 Project Overview  
+This project analyzes grocery sales data from BlinkIT to uncover insights into product performance, customer preferences, and outlet-level sales trends.  
+The goal is to provide business intelligence through an interactive Power BI dashboard that helps stakeholders make **data-driven decisions**.  
 
-Significance
+---
 
-Retail companies like BlinkIT require real-time data insights to drive decisions. This project helps in:
+## 🎯 Problem Statement  
+BlinkIT wants to optimize its sales strategy by identifying:  
+- Which products contribute most to revenue.  
+- How **fat content** and **item type** impact sales.  
+- Which outlets perform best and why.  
+- The effect of outlet size and location on overall sales.  
 
-Monitoring key KPIs such as total sales, average sales, number of items, and ratings.
+---
 
-Understanding the impact of outlet type, size, and location tier on sales.
+## 📂 Dataset Description  
+The dataset (`BlinkIT Grocery Data.xlsx`) contains details about items sold, their characteristics, and outlet information.  
 
-Identifying top-performing categories and outlets.
+Key Columns:  
+- **Item Identifier** – Unique ID for each product.  
+- **Item Weight** – Weight of the item.  
+- **Item Fat Content** – Nutritional category (Low Fat / Regular / Others).  
+- **Item Type** – Category of the grocery item (Fruits, Dairy, Frozen, etc.).  
+- **Item MRP** – Maximum Retail Price.  
+- **Outlet Identifier** – Unique code for each outlet.  
+- **Outlet Establishment Year** – Year the outlet was opened.  
+- **Outlet Size** – Tier of outlet (Small, Medium, Large).  
+- **Outlet Location Type** – City tier (Tier 1, Tier 2, Tier 3).  
+- **Outlet Type** – Type of outlet (Supermarket / Grocery Store).  
+- **Item Outlet Sales** – Total sales value (target metric).  
 
-Analyzing customer purchase patterns across different item types.
+---
 
-Supporting business strategy with data-driven recommendations.
+## 🛠️ Technologies Used  
+- **Excel** → Data exploration & cleaning.  
+- **SQL** → Querying & preprocessing dataset.  
+- **Power BI** → Data modeling, DAX measures, and dashboard creation.  
 
-Dataset Structure
+---
 
-The dataset contains ~8,500 rows and 12 fields.
+## 📊 Dashboard Features  
+- **KPIs**: Total Sales, Average Sales, Total Items, Outlet Count.  
+- **Sales Analysis**:  
+  - Sales by Item Type  
+  - Sales by Fat Content  
+  - Sales by Outlet Size & Location  
+  - Year of Establishment impact  
+- **Filters**: Dynamic slicers for Outlet, Item Type, and Year.  
 
-1. Item Details
+---
 
-Information about grocery items and their sales.
+## 📈 Insights  
+1. **Regular fat content items** generate higher sales than low-fat items.  
+2. **Tier 3 locations** contribute the highest sales, showing strong local demand.  
+3. **Medium-sized outlets** outperform both small and large outlets in sales volume.  
+4. Certain **item types** (Fruits, Dairy, Snacks) drive the majority of revenue.  
+5. Newer outlets show competitive performance compared to older ones.  
 
-Item Identifier	Item Type	Fat Content	Item Weight	Item Visibility	Sales	Rating
-FDA15	Dairy	Low Fat	9.3	0.016047	3735.14	4
-DRC01	Soft Drinks	Regular	5.92	0.019278	443.42	5
-2. Outlet Details
+---
 
-Attributes of outlets where items are sold.
+## ✅ Conclusion  
+The dashboard helps BlinkIT understand sales drivers across outlets and product categories.  
+By focusing on high-performing outlets, optimizing fat-content product distribution, and expanding in Tier 3 cities, BlinkIT can **increase profitability and market share**.  
 
-Outlet Identifier	Outlet Establishment Year	Outlet Size	Outlet Location Tier	Outlet Type
-OUT049	1999	Medium	Tier 1	Supermarket Type1
-OUT018	2009	Small	Tier 3	Supermarket Type2
-Problem Statements Solved
+---
 
-The dashboard addresses key business questions:
 
-KPIs Tracking – Total Sales, Average Sales, Average Rating, and Number of Items.
-<img width="600" alt="KPI Cards" src="https://github.com/user-attachments/assets/12345678-kpi-example" />
-
-Category Contribution – Identifying which item categories (Fruits, Snacks, Dairy, etc.) drive the most sales.
-<img width="400" alt="Category Chart" src="https://github.com/user-attachments/assets/23456789-category-example" />
-
-Outlet Performance – Comparing outlet sales by type, size, and location tier.
-<img width="400" alt="Outlet Chart" src="https://github.com/user-attachments/assets/34567890-outlet-example" />
-
-Top & Bottom Items – Highlighting best-selling and underperforming items.
-
-Outlet Age Analysis – Examining sales trends based on outlet establishment year.
-
-KPI Table for Unified Analysis
-KPI Name	Description	Formula / Symbol
-Total Sales	Total revenue generated	💰 SUM(Sales)
-Avg Sales	Average sales per item	📊 AVERAGE(Sales)
-Avg Rating	Average customer rating	⭐ AVERAGE(Rating)
-No of Items	Count of all unique items	🛒 COUNTROWS
-Contribution %	Share of sales contribution per category	📈 DIVIDE
-Sales per Outlet	Average sales per outlet	🏪 DIVIDE
-Conclusion
-
-This Power BI project delivers a comprehensive sales and outlet performance analysis for BlinkIT. By combining Excel preprocessing, Power Query transformations, and DAX-driven KPIs, it enables retail managers to identify high-performing categories, optimize outlet strategies, and improve customer experience.
