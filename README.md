@@ -50,7 +50,7 @@ BlinkIT wants to optimize its sales strategy by identifying:
 
 ## 📊 Dashboard Features  
 - **KPIs**: Total Sales, Average Sales, Total Items, Outlet Count.  
-- **Sales/Avg Sales/Total Items/Avg Rating Analysis (Matric)**:  
+- **Sales/Avg Sales/Total Items/Avg Rating Analysis (Metric)**:  
   - Sales by Item Type  
   - Sales by Fat Content  
   - Sales by Outlet Size & Location  
@@ -60,16 +60,16 @@ BlinkIT wants to optimize its sales strategy by identifying:
 ## KPI's 
  <img width="291" height="189" alt="KPI" src="https://github.com/user-attachments/assets/4c82a03b-329f-4ebc-be8c-b9928203b723" />
 
-## Matrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating)Fat Content, Item type and fat by outlet
+## Metrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating)Fat Content, Item type and fat by outlet
 <img width="272" height="221" alt="Fat content and item type" src="https://github.com/user-attachments/assets/4792d01e-64e9-4d39-a573-2e2c57dddb76" />
 
-## Matrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating) Outlet Establishment
+## Metrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating) Outlet Establishment
 <img width="314" height="139" alt="Outlet establishment year" src="https://github.com/user-attachments/assets/1994629f-4ed0-41e1-bfa8-d0c5a4d94c75" />
 
-## Matrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating) Outlet Location Type and Outlet Size.
+## Metrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating) Outlet Location Type and Outlet Size.
 <img width="290" height="116" alt="outletsize nd location" src="https://github.com/user-attachments/assets/a8d09f0f-9dd7-4571-be42-ec9452b2693b" />
 
-## Matrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating) Outlet Type
+## Metrics wise(Total Sales/Avg Sales/ No of Items/ Avg Rating) Outlet Type
 <img width="306" height="102" alt="Outlet type" src="https://github.com/user-attachments/assets/e79fbe17-fb87-4a22-9e60-314ca6537717" />
 
 ## Dashboard Overview
